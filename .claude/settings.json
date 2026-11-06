@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(pwsh -NoProfile -File scripts/codex-verify.ps1)",
+      "PowerShell(pwsh -NoProfile -File scripts/codex-verify.ps1)",
+      "PowerShell(./scripts/codex-verify.ps1)",
+      "Bash(npm test)",
+      "PowerShell(npm test)",
+      "Bash(npm run typecheck)",
+      "PowerShell(npm run typecheck)",
+      "Bash(npm run build)",
+      "PowerShell(npm run build)",
+      "Bash(git status)",
+      "PowerShell(git status)",
+      "Bash(git diff *)",
+      "PowerShell(git diff *)",
+      "Bash(git log *)",
+      "PowerShell(git log *)"
+    ]
+  }
+}
